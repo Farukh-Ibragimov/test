@@ -18,6 +18,6 @@ if(typeof(numSum) !== Number){
     console.log("Введите число");
 }else if(numSum > 1000 && numSum < 5000){
     console.log("Скидка 5%");
-    fair = numSum * 2
+    fair = numSum * 0.05
 }
 
